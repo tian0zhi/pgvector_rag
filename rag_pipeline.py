@@ -32,7 +32,7 @@ def rag_answer(query: str, top_k: int = 5):
     ]
     }
     headers = {
-        "Authorization": f"Bearer {api_key.api_key}",
+        "Authorization": f"Bearer {api_key.my_api_key}",
         "Content-Type": "application/json"
     }
 
